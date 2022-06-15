@@ -174,7 +174,7 @@ function spawnObstacles() {
     var obstacle = createSprite(800,height-300,20,30);
     obstacle.y = Math.round(random(100, 500))
     obstacle.setCollider('circle',0,0,45)
-    //obstacle.debug = true
+    obstacle.debug = true
   
     obstacle.velocityX = -(6 + 3*score/100);
     
